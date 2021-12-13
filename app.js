@@ -12,7 +12,8 @@ var myOptionsOne = {
 var app = express();
 /* hi */ 
 
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
+
 
 
 app.get('/', function (req,res) {
