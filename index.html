@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GymnasieArbete</title>
+
+    <link rel="stylesheet" href="/public/style.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="container">
+        <!-- no info sent  -->
+        <div id="introductionPage">
+          <p class="introP">
+            You will partake in an experiment, where you will be shown questions
+            and have to pick a corresponding colour. You will have 10 seconds to
+            pick which colour you think is most fitting for the question, after
+            that you move on to the next question.
+            <br />
+            <br />
+            Press the button to start
+          </p>
+
+          <button type="button" id="buttonIntroductionPage"></button>
+        </div>
+
+        <!-- info started sending -->
+
+        <form id="theForm" action="" method="POST">
+          <div id="pageOne">
+            Which colour represents <b>"Excitemenet"? </b>
+            <div class="timer" id="clock">10</div>
+            <button class="one" type="button" id="pageOneOption1"></button>
+            <button class="two" type="button" id="pageOneOption2"></button>
+            <button class="three" type="button" id="pageOneOption3"></button>
+            <button class="four" type="button" id="pageOneOption4"></button>
+            <button class="five" type="button" id="pageOneOption5"></button>
+            <button class="six" type="button" id="pageOneOption6"></button>
+            <button class="seven" type="button" id="pageOneOption7"></button>
+            <button class="eight" type="button" id="pageOneOption8"></button>
+          </div>
+
+          <div id="pageTwo">
+            Which colour represents <b>"Ruggedness"? </b> 
+            <div class="timer" id="clock2">10</div>
+            <button class="one" type="button" id="pageTwoOption1"></button>
+            <button class="two" type="button" id="pageTwoOption2"></button>
+            <button class="three" type="button" id="pageTwoOption3"></button>
+            <button class="four" type="button" id="pageTwoOption4"></button>
+            <button class="five" type="button" id="pageTwoOption5"></button>
+            <button class="six" type="button" id="pageTwoOption6"></button>
+            <button class="seven" type="button" id="pageTwoOption7"></button>
+            <button class="eight" type="button" id="pageTwoOption8"></button>
+          </div>
+
+          <div  id="pageThree">
+            Which colour represents<b>"Sincerity"?</b> 
+            <div class="timer" id="clock3">10</div>
+            <button class="one" type="button" id="pageThreeOption1"></button>
+            <button class="two" type="button" id="pageThreeOption2"></button>
+            <button class="three" type="button" id="pageThreeOption3"></button>
+            <button class="four" type="button" id="pageThreeOption4"></button>
+            <button class="five" type="button" id="pageThreeOption5"></button>
+            <button class="six" type="button" id="pageThreeOption6"></button>
+            <button class="seven" type="button" id="pageThreeOption7"></button>
+            <button class="eight" type="button" id="pageThreeOption8"></button>
+          </div>
+
+          <div  id="pageFour">
+            Which colour represents<b>"Competence"?</b> 
+            <div class="timer" id="clock4">10</div>
+            <button class="one" type="button" id="pageFourOption1"></button>
+            <button class="two" type="button" id="pageFourOption2"></button>
+            <button class="three" type="button" id="pageFourOption3"></button>
+            <button class="four" type="button" id="pageFourOption4"></button>
+            <button class="five" type="button" id="pageFourOption5"></button>
+            <button class="six" type="button" id="pageFourOption6"></button>
+            <button class="seven" type="button" id="pageFourOption7"></button>
+            <button class="eight" type="button" id="pageFourOption8"></button>
+          </div>
+
+          <div  id="pageFive">
+            Which colour represents<b>"Sophistication"?</b> 
+            <div class="timer" id="clock5">10</div>
+            <button class="one" type="button" id="pageFiveOption1"></button>
+            <button class="two" type="button" id="pageFiveOption2"></button>
+            <button class="three" type="button" id="pageFiveOption3"></button>
+            <button class="four" type="button" id="pageFiveOption4"></button>
+            <button class="five" type="button" id="pageFiveOption5"></button>
+            <button class="six" type="button" id="pageFiveOption6"></button>
+            <button class="seven" type="button" id="pageFiveOption7"></button>
+            <button class="eight" type="button" id="pageFiveOption8"></button>
+          </div>
+
+          <div  id="pageSix">
+            Which colour represents<b>"Carefree"?</b> 
+            <div class="timer" id="clock6">10</div>
+            <button class="one" type="button" id="pageSixOption1"></button>
+            <button class="two" type="button" id="pageSixOption2"></button>
+            <button class="three" type="button" id="pageSixOption3"></button>
+            <button class="four" type="button" id="pageSixOption4"></button>
+            <button class="five" type="button" id="pageSixOption5"></button>
+            <button class="six" type="button" id="pageSixOption6"></button>
+            <button class="seven" type="button" id="pageSixOption7"></button>
+            <button class="eight" type="button" id="pageSixOption8"></button>
+          </div>
+
+          <div  id="pageSeven">
+            Which colour represents<b>"Kindness"?</b> 
+            <div class="timer" id="clock7">10</div>
+            <button class="one" type="button" id="pageSevenOption1"></button>
+            <button class="two" type="button" id="pageSevenOption2"></button>
+            <button class="three" type="button" id="pageSevenOption3"></button>
+            <button class="four" type="button" id="pageSevemOption4"></button>
+            <button class="five" type="button" id="pageSevenOption5"></button>
+            <button class="six" type="button" id="pageSevenOption6"></button>
+            <button class="seven" type="button" id="pageSevenOption7"></button>
+            <button class="eight" type="button" id="pageSevenOption8"></button>
+          </div>
+          
+          <div  id="pageEight">
+            Which colour represents<b>"tough"?</b> 
+            <div class="timer" id="clock8">10</div>
+            <button class="one" type="button" id="pageEightOption1"></button>
+            <button class="two" type="button" id="pageEightOption2"></button>
+            <button class="three" type="button" id="pageEightOption3"></button>
+            <button class="four" type="button" id="pageEightOption4"></button>
+            <button class="five" type="button" id="pageEightOption5"></button>
+            <button class="six" type="button" id="pageEightOption6"></button>
+            <button class="seven" type="button" id="pageEightOption7"></button>
+            <button class="eight" type="button" id="pageEightOption8"></button>
+          </div>
+
+          <div  id="pageNine">
+            Which colour represents<b>"Successful"?</b> 
+            <div class="timer" id="clock9">10</div>
+            <button class="one" type="button" id="pageNineOption1"></button>
+            <button class="two" type="button" id="pageNineOption2"></button>
+            <button class="three" type="button" id="pageNineOption3"></button>
+            <button class="four" type="button" id="pageNineOption4"></button>
+            <button class="five" type="button" id="pageNineOption5"></button>
+            <button class="six" type="button" id="pageNineOption6"></button>
+            <button class="seven" type="button" id="pageNineOption7"></button>
+            <button class="eight" type="button" id="pageNineOption8"></button>
+          </div>
+
+          <div  id="pageTen">
+            Which colour represents<b>"prestigious"?</b> 
+            <div class="timer" id="clock10">10</div>
+            <button class="one" type="button" id="pageTenOption1"></button>
+            <button class="two" type="button" id="pageTenOption2"></button>
+            <button class="three" type="button" id="pageTenOption3"></button>
+            <button class="four" type="button" id="pageTenOption4"></button>
+            <button class="five" type="button" id="pageTenOption5"></button>
+            <button class="six" type="button" id="pageTenOption6"></button>
+            <button class="seven" type="button" id="pageTenOption7"></button>
+            <button class="eight" type="button" id="pageTenOption8"></button>
+          </div>
+
+          <div id="endPage">
+            <p class="introP">
+             Test Complete!
+              <br />
+              <br />
+
+            </p>
+          </div>
+          
+
+        </form>
+
+       
+      </div>
+    </div>
+  </body>
+
+  <script src="public/script.js"></script>
+</html>

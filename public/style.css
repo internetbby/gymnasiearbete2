@@ -1,0 +1,108 @@
+:root {
+  --background: #afafaf;
+  --main: #eeee;
+  --second-tone: rgb(119, 119, 119);
+  --third-tone: rgb(133, 133, 133);
+
+  --text: black;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-size: 20px;
+
+  margin: 0;
+
+  background-color: var(--background);
+  grid-column: 1/5;
+}
+
+.parent {
+  width: 100vw;
+  height: 90vh;
+
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
+  grid-template-rows: 1fr 6fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.container {
+  grid-area: 2 / 2 / 3 / 3;
+
+  background-color: var(--main);
+
+  height: 100%;
+
+  width: 100%;
+
+  color: var(--text);
+
+  padding-top: 5%;
+}
+
+form{
+  height: 100%;
+  width: 100%;
+}
+
+#introductionPage, #pageOne , #pageTwo, #pageThree, #pageFour, #pageFive, #pageSix, #pageSeven, #pageEight, #pageNine, #pageten, #endPage {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+button {
+  width: 5%;
+  height: 10%;
+
+  margin: 30px;
+  margin-top: 30px;
+}
+
+.one {
+  background-color: red;
+}
+
+.two{
+  background-color: rgb(255, 145, 0);
+}
+
+.three{
+  background-color: rgb(255, 251, 0);
+}
+
+.four
+{
+  background-color: rgb(30, 255, 0);
+}
+
+.five
+{
+  background-color: rgb(68, 0, 255);
+}
+
+.six
+{
+  background-color: rgb(234, 0, 255);
+}
+
+.seven
+{
+  background-color: rgb(255, 255, 255);
+}
+.eight{
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+
+.timer{
+  color: var(--third-tone);
+}
